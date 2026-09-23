@@ -15,10 +15,17 @@ Memphis is built with the goal of creating a dependable operating system that pr
 
 The project is centered around a practical philosophy: when something fails, the system should guide the user through a calm, understandable recovery process instead of forcing a confusing crash experience.
 
+## SIFS
+
+Memphis uses **SIFS**, which stands for **Small Image File System**, as its system disk format. SIFS is designed specifically for Memphis to provide a compact and efficient way to organize and store the files required by the operating system.
+
+By using a system disk format built around small images, Memphis can keep its core system layout lightweight while maintaining a format tailored to the needs of the OS. SIFS is an important part of the Memphis foundation and is intended to support the project’s focus on simplicity, efficiency, and reliability.
+
 ## Design Goals
 
 - Build a robust OS from the ground up
 - Use Orbis, C, and C++ for low-level system design
+- Use SIFS as the system disk format
 - Minimize unexpected failures
 - Provide simple, user-friendly error recovery
 - Create a stable foundation for future development
@@ -42,6 +49,7 @@ At this stage, the project is still being developed. As the system evolves, setu
 Planned development includes:
 - core architecture
 - system services and kernel components
+- SIFS development and integration
 - crash handling and recovery flow
 - user interface improvements
 - stability testing and reliability work
