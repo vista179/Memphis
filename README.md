@@ -1,1 +1,1 @@
-# Memphis
+# Memphis is the code name for project reliable a OS designed from the ground up using the orbis, C+ and C++ coding language (it has no crash screen only a message box asking if you want to reboot the computer to fix any crash or fatal error)
