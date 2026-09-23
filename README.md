@@ -29,6 +29,16 @@ SIFS is intended to provide:
 - compact system images
 - a file system designed specifically for Memphis
 
+## Safety Mode and Fork Policy
+
+Memphis includes a built-in Safety Mode that blocks non-store applications by default to help protect the system from unsafe software, tampering, and malicious behavior. This mode is intended to improve stability, security, and trust for everyday use.
+
+Acorn LTD and Acorn Technologies do not permit Memphis forks to contain malicious code, spyware, hidden telemetry, backdoors, or other harmful behavior. Forks that violate this policy may be reported for removal from platforms or distribution channels where applicable.
+
+Forks are allowed for customization and experimentation, but they must remain aligned with the project’s safety-first principles. Unofficial builds must not be used to distribute harmful software or collect user data without clear consent.
+
+If you fork Memphis, your fork becomes an unofficial flavor or distribution of Memphis. It may be customized and extended for personal or community use, but it must not contain harmful code or violate the project’s safety and integrity rules.
+
 ## Design Goals
 
 - Build a robust OS from the ground up
@@ -71,12 +81,6 @@ Contributions are welcome as the project grows. If you’d like to help with Mem
 2. Create a feature branch
 3. Make your changes
 4. Open a pull request with a clear explanation of the work
-
-## Forks and Community Builds
-
-If you fork this project, your fork becomes an unofficial flavor or distribution of Memphis. This means it can be customized, extended, or rebranded for your own use while still being based on the Memphis codebase and philosophy.
-
-Community forks are welcome, but they are not official Memphis releases unless they are explicitly endorsed by the project maintainers. Any fork should retain the project’s core principles of reliability, graceful recovery, and user-friendly system behavior.
 
 ## License
 
