@@ -72,6 +72,12 @@ Contributions are welcome as the project grows. If you’d like to help with Mem
 3. Make your changes
 4. Open a pull request with a clear explanation of the work
 
+## Forks and Community Builds
+
+If you fork this project, your fork becomes an unofficial flavor or distribution of Memphis. This means it can be customized, extended, or rebranded for your own use while still being based on the Memphis codebase and philosophy.
+
+Community forks are welcome, but they are not official Memphis releases unless they are explicitly endorsed by the project maintainers. Any fork should retain the project’s core principles of reliability, graceful recovery, and user-friendly system behavior.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for full details.
